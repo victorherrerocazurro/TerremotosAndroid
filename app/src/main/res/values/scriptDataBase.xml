@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="DataBaseVersion">1</integer>
+    <string name="DataBaseName">TerremotosDB.s3db</string>
+
+    <string-array name="scriptCreate">
+        <item>CREATE TABLE [TERREMOTOS] ([ID] INTEGER  NOT NULL PRIMARY KEY,[TITULO] VARCHAR(150)  NULL,[MAGNITUD] FLOAT  NULL,[LATITUD] FLOAT  NULL,[LONGITUD] FLOAT  NULL,[FECHA] TIMESTAMP  NULL,[LINK] VARCHAR(150)  NULL)</item>
+    </string-array>
+
+    <string-array name="scriptUpgrade_1_3">
+        <item>DROP TABLE [TERREMOTOS]</item>
+        <item>CREATE TABLE [TERREMOTOS] ([ID] INTEGER  NOT NULL PRIMARY KEY,[TITULO] VARCHAR(150)  NULL,[MAGNITUD] FLOAT  NULL,[LATITUD] FLOAT  NULL,[LONGITUD] FLOAT  NULL,[FECHA] TIMESTAMP  NULL,[LINK] VARCHAR(150)  NULL)</item>
+    </string-array>
+
+    <string-array name="scriptUpgrade_2_3">
+        <item>DROP TABLE [TERREMOTOS]</item>
+        <item>CREATE TABLE [TERREMOTOS] ([ID] INTEGER  NOT NULL PRIMARY KEY,[TITULO] VARCHAR(150)  NULL,[MAGNITUD] FLOAT  NULL,[LATITUD] FLOAT  NULL,[LONGITUD] FLOAT  NULL,[FECHA] TIMESTAMP  NULL,[LINK] VARCHAR(150)  NULL)</item>
+    </string-array>
+</resources>

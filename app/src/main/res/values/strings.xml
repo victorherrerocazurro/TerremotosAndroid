@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Terremotos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="lb_fecha_inicio">Fecha de Inicio</string>
+    <string name="lb_intensidad_terremoto">Intensidad del Terremoto</string>
+    <string name="bt_buscar">Buscar</string>
+    <string name="action_help">Ayuda</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ayuda">Esta aplicacion, permite buscar terremotos de una base de datos interna que se sincroniza con servicios externos de USGS, mostrando detalles del Terremoto y visualizando en un mapa la ubicación de los mismos.</string>
+    <string name="action_detalle">Detalle</string>
+
+    <!-- Preferencias -->
+    <string name="preferences_key_feedUrl">feedUrl</string>
+    <string name="preferences_key_feedUrl_default">http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.atom</string>
+    <string name="preferences_key_actualizacion">actualizacion</string>
+    <string name="preferences_key_actualizacion_default">0</string>
+
+
+</resources>

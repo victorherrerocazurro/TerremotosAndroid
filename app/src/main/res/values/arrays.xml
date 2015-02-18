@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clavesPeriodos">
+        <item>ninguno</item>
+        <item>cada dia</item>
+        <item>cada semana</item>
+        <item>cada mes</item>
+    </string-array>
+    <string-array name="valoresPeriodos" >
+        <item>0</item>
+        <item>1</item>
+        <item>7</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="intensidades">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
